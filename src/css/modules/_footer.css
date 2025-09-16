@@ -1,0 +1,36 @@
+.f.liste-menu {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  align-self: stretch;
+  color: var(--Text-secondary, #000);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icon-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.footer p {
+  color: var(--Text-secondary, #000);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
