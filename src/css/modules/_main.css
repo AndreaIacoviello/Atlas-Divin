@@ -104,8 +104,9 @@ section .button-1 {
   align-self: stretch;
   border-radius: 8px;
   background: var(--Blue, #279ef8);
-  text-decoration: none;
+  border: none;
 }
+
 section .button-2 {
   display: flex;
   padding: 12px 8px;
@@ -144,4 +145,14 @@ section .button-4 {
   border: 2px solid var(--Blue, #279ef8);
   background: var(--Background, #fff);
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+button {
+  border: none;
+  background: none;
 }
